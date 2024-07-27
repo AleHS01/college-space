@@ -1,0 +1,131 @@
+.signup-section {
+  background-color: #333456;
+  width: 100%;
+  padding: 50px;
+  color: aliceblue;
+}
+.signup-section .heading {
+  text-align: center;
+  margin: 0 0 50px;
+}
+
+.signup-section form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.signup-section form label {
+  margin: 15px 0;
+  font-weight: 600;
+  font-size: 1.1rem;
+  display: block;
+}
+
+.signup-section form input {
+  width: 100%;
+  border-radius: 8px;
+  border: 0;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.radio-option {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid aliceblue;
+  margin-right: 10px;
+  transition: background-color 0.3s, border-color 0.3s;
+  border-radius: 8px;
+}
+
+.radio-option:last-child {
+  margin-right: 0;
+}
+
+.radio-option.selected {
+  background-color: #3f4eb1;
+  color: #fff;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper input {
+  width: 10%;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #007bff;
+}
+
+.password-toggle:hover {
+  text-decoration: underline;
+}
+
+/* Buttons and Steps */
+.next-back-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-wrapper {
+  margin: 30px 0;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+}
+
+.back-btn,
+.next-btn,
+.submit-btn {
+  background-color: #ed4c54;
+  border: 0;
+  color: aliceblue;
+  font-weight: 600;
+  padding: 15px;
+  width: 30%;
+  border-radius: 16px;
+  cursor: pointer;
+}
+.step-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #23263e;
+}
+
+.dots-container {
+  display: flex;
+  gap: 5px;
+}
+
+.step-dot.active {
+  background-color: #3f4eb1;
+}
+
+.error {
+  color: #ed4c54;
+  font-size: 1rem;
+  margin-top: 5px;
+}

@@ -1,0 +1,94 @@
+.hero-section {
+  padding: 0 100px;
+  width: 100%;
+  height: calc(100vh - 60px);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+.col1,
+.col2 {
+  display: flex;
+  justify-content: center;
+}
+
+.col1 h1 {
+  font-size: 4rem;
+  margin-bottom: 10px;
+  color: #0c11a1;
+}
+
+.col1 h2 {
+  font-size: 2.5rem;
+  color: #ebc94a;
+}
+
+.col1 .description {
+  color: #263c56;
+  width: 100%;
+  margin: 20px 0;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.col1 .buttons-container .login-btn,
+.col1 .buttons-container .signup-btn {
+  cursor: pointer;
+}
+
+.col1 .signup-btn {
+  color: aliceblue;
+  border-radius: 4px;
+  margin-right: 20px;
+  padding: 15px 40px;
+}
+.col1 .buttons-container .signup-btn:hover {
+  color: #0c11a1;
+}
+.col1 .buttons-container .login-btn {
+  padding: 15px 40px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #0c11a1;
+  background-color: #e3e9f1;
+  transition: all 0.4s ease-in-out;
+  border: 1px solid transparent;
+}
+
+.col1 .buttons-container .login-btn:hover {
+  background-color: #0c11a1;
+  color: aliceblue;
+}
+
+.cheks-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 30px 0;
+}
+
+.cheks-container .check {
+  display: flex;
+  align-items: center;
+  color: #263c56;
+  gap: 10px;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.cheks-container .check img {
+  width: 20px;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 0 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+  .col2 img {
+    width: 80%;
+  }
+}
