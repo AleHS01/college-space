@@ -63,7 +63,10 @@ const SignUpForm = () => {
   };
 
   const handleSubmit = () => {
-    alert("submitted");
+    // Handle Logic here using formData to access the data
+    // Ex: formData.email
+
+    // Resetting form
     setFormData(initialState);
     setStep(1);
   };

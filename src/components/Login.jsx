@@ -8,24 +8,22 @@ const Login = () => {
   const [error, setError] = useState("");
   const [isVisible, setIsVisible] = useState(false);
 
-  // Regular expression for validating email format
   const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
   const handleLogin = (e) => {
     e.preventDefault();
 
-    // Validate email
     if (!emailPattern.test(email)) {
       setError("Please enter a valid email address.");
       return;
     }
 
-    // Clear error message if validation passes
     setError("");
 
     // Handle login logic here
 
-    // Reset form
+    setEmail("");
+    setPassword("");
     e.target.reset();
   };
 
