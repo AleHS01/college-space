@@ -2,7 +2,9 @@
 
 This is the landing page for the College-Space project on BuildSpace. I contributed the Landing page and the [Timeline Feature](https://github.com/AleHS01/horizontal-timeline)
 
-
+## Tech Stack
+- React + Vite
+  
 # Prerequisites:
 
 ## Mac OS
