@@ -1,6 +1,8 @@
 # College-Space
-
 This is the landing page for the College-Space project on BuildSpace. I contributed the Landing page and the [Timeline Feature](https://github.com/AleHS01/horizontal-timeline)
+
+<img width="1440" alt="Screenshot 2025-01-02 at 10 17 48 PM" src="https://github.com/user-attachments/assets/ba37f823-3802-4758-9b35-21d928755d3e" />
+<img width="1440" alt="Screenshot 2025-01-02 at 10 18 10 PM" src="https://github.com/user-attachments/assets/14e12704-d4f8-4951-885c-e70379135784" />
 
 ## Tech Stack
 - React + Vite
